@@ -86,7 +86,7 @@ body {
   margin-top: 10px;
 }
 .course-card{
-  width: 250px;
+  width: 350px;
 }
 .course-card img{
   width: 100%;
@@ -127,6 +127,7 @@ body {
   flex-wrap: wrap;
   justify-content: space-between;
   margin-top: 10px;
+  gap: 50px 10px ;
 }
 .popular__container2{
   display: flex;
@@ -158,4 +159,9 @@ body {
   justify-content: space-between;
   align-items: center;
   margin: 20px;
+}
+@media(max-width: 768px){
+  .course-card{
+  width: 100%   ;
+}
 }
