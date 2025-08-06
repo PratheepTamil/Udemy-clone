@@ -58,7 +58,7 @@ body {
 .mylearning__popup{
   position: absolute;
   width: 100px;
-  border: 2px solid black;
+  border: 2px solid rgb(9, 8, 8);
   background-color: white;
   top: 150%;
   right: 0;
